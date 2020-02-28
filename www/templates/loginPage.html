@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="css/loginPage.css">
+
+<ion-pane>
+    <ion-content style="background-color: #404D63">
+        <div class="content has-header">
+            <br>
+            <br>
+            <br>
+            <div class="padding-bottom" align="center">
+                <img src="img/ionic.png" />
+            </div>
+            <div class="list padding">
+                <label class="item item-input item-floating-label">
+                    <i class="icon ion-email placeholder-icon"></i>
+                    <input type="text" placeholder="User Name" ng-model = "user.username" id = "username">
+                </label>
+                <br>
+                <label class="item item-input item-floating-label">
+                    <i class="icon ion-locked placeholder-icon"></i>
+                    <input type="password" placeholder="Password" ng-model = "user.password" id = "password">
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive activated loginBtn" ng-click = "validate(user)">LOG IN</button>
+                <span style="display: block; text-align: center; color: white;">Forgot Password?</span>
+            </div>
+        </div>
+    </ion-content>
+</ion-pane>

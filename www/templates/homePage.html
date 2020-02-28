@@ -1,0 +1,17 @@
+<ion-pane>
+    <ion-content ng-controller = "homeController">
+        <div class="bar bar-header">
+            <div class="h1 title">Welcome {{username}}</div>
+        </div>
+        <div class="content has-header ionic-pseudo">
+            <div class="list">
+                <div class="item item-divider">
+                    Employee list
+                </div>
+                <a class="item" href = "#" ng-repeat = "emp in employeeList">
+                    {{emp.employee_name}}
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-pane>

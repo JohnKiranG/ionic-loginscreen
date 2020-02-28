@@ -1,0 +1,23 @@
+.item {
+    border-bottom-color: #c4c2c2;
+    border-top-color: #404D63;
+    border-left-color: #404D63;
+    border-right-color: #404D63;
+    border-bottom-width: 1px;
+}
+
+.item-floating-label {
+    display: -webkit-box;
+}
+
+.loginBtn {
+    background-color: #49B7C8 !important;
+}
+
+.loginBtn.activated {
+    background-color: #42a3b2 !important; 
+}
+
+#username, #password {
+    color: white;
+}
